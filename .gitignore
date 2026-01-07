@@ -1,0 +1,16 @@
+# PowerShell
+*.swp
+*~
+*.tmp
+*.log
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pester
+TestResults/

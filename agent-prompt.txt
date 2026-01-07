@@ -1,0 +1,23 @@
+Create a powershell script to sync the putty session settings:
+
+* args
+  * -List
+    * optional
+    * when apply, list all putty session name and do nothing
+  * -Sync (session_name)
+    * optional
+    * when apply, sync all the putty sessions based on (session_name).
+    * session_name is optional, default is default settings
+    * sync everything excluding
+      * session name
+      * Hostname / IP
+      * port
+      * connection type
+      * Window > Behaviour > Window title
+    * must sync
+      * Window > Appearance > Font settings
+      * Window > Selection > (everything)
+  * if no args given, show help and exit
+
+      
+
